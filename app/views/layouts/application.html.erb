@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= render 'layouts/common_head' %>
+  </head>
+
+  <body class="<%= controller_name %> <%= action_name %>" data-spy="scroll">
+    <%= render 'layouts/navbar' %>
+
+    <% if user_signed_in? %>
+      <%#= render 'layouts/sidenav' %>
+    <% end %>
+
+    <main>
+      <div class="container-fluid">
+        <%= yield %>
+      </div>
+
+      <%= render 'layouts/ganalytics' %>
+    </main>
+
+    <%= render 'layouts/footer' %>
+  </body>
+</html>
