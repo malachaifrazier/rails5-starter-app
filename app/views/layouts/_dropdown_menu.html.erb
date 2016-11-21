@@ -8,16 +8,6 @@
       <ul class="dropdown-menu" role="menu">
         <% if user_signed_in? %>
           <li>
-            <%= link_to(edit_user_registration_path) do %>
-              <%#= image_tag(current_user.profile.navbar_photo, class: 'img-responsive') %>
-              <span>
-                <%= current_user.full_name %>
-              </span>
-            <% end %>
-          </li>
-
-          <li class="divider"></li>
-          <li>
             <%= link_to(dashboard_url) do %>
               <i class="fa fa-dashboard"></i>
               <span>Dashboard</span>
@@ -26,7 +16,7 @@
 
           <li class="divider"></li>
           <li>
-            <%= link_to(edit_user_path(@user)) do %>
+            <%= link_to(edit_user_registration_path) do %>
               <i class="fa fa-group"></i>
               <span>Settings</span>
             <% end %>
@@ -55,8 +45,9 @@
           </li>
         <% end %>
 
+        <li class="divider"></li>
         <li>
-          <%= link_to("/about_us") do %>
+          <%= link_to about_us_path do %>
             <i class="fa fa-question-circle"></i>
             About Us
           <% end %>

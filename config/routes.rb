@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
   # Info pages
   scope '/about' do
-    get 'about_us', to: 'main#about_us',    as: :about_us
+    get '/us', to: 'main#about_us',    as: :about_us
     get '/privacy', to: 'main#privacyinfo', as: :privacy_policy
   end
 
