@@ -1,4 +1,4 @@
-require 'puma/plugin/heroku'
+# require 'puma/plugin/heroku'
 
 workers Integer(ENV['WEB_CONCURRENCY'] || 2)
 threads_count = Integer(ENV['RAILS_MAX_THREADS'] || 5)
