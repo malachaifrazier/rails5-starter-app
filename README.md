@@ -45,13 +45,6 @@ And testing gems like:
 * [Shoulda Matchers](https://github.com/thoughtbot/shoulda-matchers) for common
   RSpec matchers
 
-## Git
-
-This will initialize a new git repository for your Rails app. You can
-bypass this with the `--skip-git` option:
-
-    suspenders app --skip-git true
-
 ## Spring
 
 rails5-starter-app uses [spring](https://github.com/rails/spring) by default.
@@ -89,7 +82,7 @@ Thank you, [contributors]!
 
 ## License
 
-Suspenders is Copyright © 2016 Butterburn LLC.
+rails5-starter-app is Copyright © 2016 Butterburn LLC.
 It is free software,
 and may be redistributed under the terms specified in the [LICENSE] file.
 
@@ -103,4 +96,4 @@ The names and logos for Butterburn LLC are trademarks of Butterburn LLC.
 We love open source software!
 We are [available for hire][hire].
 
-[hire]: https://butterburn.co?utm_source=github
+[hire]: http://butterburn.co
