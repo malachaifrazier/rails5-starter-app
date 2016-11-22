@@ -14,3 +14,22 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require_tree .
+
+(function () {
+  setTimeout(function() {
+    return $("#flash").fadeOut("slow");
+  }, 500000);
+
+  setTimeout(function() {
+    return $(".alert").fadeOut("slow");
+  }, 500000);
+
+  setTimeout(function() {
+    return $(".alert-quick").fadeOut("slow");
+  }, 500000);
+
+  setTimeout(function() {
+    return $(".alert-dismissable").fadeOut("slow");
+  }, 500000);
+
+}());
