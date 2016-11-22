@@ -1,7 +1,7 @@
 # rails5-starter-app
 
 rails5-starter-app is the base Rails5 application used at
-[butterburn](http://butterburn.co/).
+[butterburn](http://www.butterburn.co/).
 
 ## Installation
 
@@ -74,8 +74,6 @@ If you have problems, please create a
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
-
 Thank you, [contributors]!
 
 [contributors]: https://github.com/malachaifrazier/rails5-starter-app/graphs/contributors
@@ -96,4 +94,4 @@ The names and logos for Butterburn LLC are trademarks of Butterburn LLC.
 We love open source software!
 We are [available for hire][hire].
 
-[hire]: http://butterburn.co
+[hire]: http://www.butterburn.co/
