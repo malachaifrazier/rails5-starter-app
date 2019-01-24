@@ -46,7 +46,7 @@ end
 
 group :development do
   gem 'letters',               require: false
-  gem 'web-console',           '~> 3.4'
+  gem 'web-console',           '~> 3.7'
   gem 'listen',                '~> 3.1', '>= 3.1.5'
   gem 'spring',                '~> 2.0'
   gem 'spring-watcher-listen', '~> 2.0.0'
