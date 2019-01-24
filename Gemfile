@@ -64,7 +64,7 @@ group :test do
   gem 'rspec_candy',              '~> 0.4.1'
   gem 'rspec-rails',              '~> 3.5', '>= 3.5.2'
   gem 'rails-controller-testing', '~> 1.0', '>= 1.0.1'
-  gem 'rspec-activemodel-mocks',  '~> 1.0', '>= 1.0.3'
+  gem 'rspec-activemodel-mocks',  '~> 1.1'
   gem 'faker',                    '~> 1.6', '>= 1.6.6'
 end
 
