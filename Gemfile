@@ -51,7 +51,7 @@ group :development do
   gem 'spring',                '~> 2.0'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'letter_opener',         '~> 1.4', '>= 1.4.1'
-  gem 'annotate',              '~> 2.7', '>= 2.7.1'
+  gem 'annotate',              '~> 2.7'
   gem 'sextant',               '~> 0.2.4'
 end
 
