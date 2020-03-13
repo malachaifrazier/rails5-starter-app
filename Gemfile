@@ -24,7 +24,7 @@ gem 'font-awesome-rails',     '~> 4.7'
 gem 'material_icons',         '~> 2.2'
 gem 'paperclip',              '~> 5.1'
 gem 'meta-tags',              '~> 2.3', '>= 2.3.1'
-gem 'administrate',           '~> 0.3.0'
+gem 'administrate',           '~> 0.13.0'
 gem 'bourbon',                '~> 4.2', '>= 4.2.7'
 
 # gem 'foreman',                '~> 0.82.0'
